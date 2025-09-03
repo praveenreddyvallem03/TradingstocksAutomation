@@ -20,13 +20,13 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-- name: Run Maven Project Until 11:30 AM IST
-  run: |
-    # Calculate today's end time (11:30 AM IST) in epoch
-    end=$(date -u -d "11:30 Asia/Kolkata" +%s)
-    while [ $(date +%s) -lt $end ]
-    do
-      echo "Starting Maven task at $(date)"
-      mvn clean test -DsuiteXmlFile=testng.xml
-      echo "Task finished at $(date). Restarting immediately..."
-    done
+      - name: Run Maven Project Until 11:30 AM IST
+        run: |
+          # Calculate today's end time (11:30 AM IST) in epoch
+          end=$(date -u -d "11:30 Asia/Kolkata" +%s)
+          while [ $(date +%s) -lt $end ]
+          do
+            echo "Starting Maven task at $(date)"
+            mvn clean test -DsuiteXmlFile=testng.xml
+            echo "Task finished at $(date). Restarting immediately..."
+          done

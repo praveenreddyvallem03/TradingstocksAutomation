@@ -27,6 +27,6 @@ jobs:
           while [ $(date +%s) -lt $end ]
           do
             echo "Starting Maven task at $(date)"
-            mvn clean test -DsuiteXmlFile=testng.xml
+            mvn clean test -DsuiteXmlFile=./testng.xml
             echo "Task finished at $(date). Restarting immediately..."
           done

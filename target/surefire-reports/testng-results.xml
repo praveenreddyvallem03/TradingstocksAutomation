@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="11" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-03T10:08:10 IST" name="BDD Suite" finished-at="2025-09-03T10:10:22 IST" duration-ms="132056">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-03T10:08:10 IST" name="Cucumber Tests" finished-at="2025-09-03T10:10:22 IST" duration-ms="132056">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:08:10 IST" name="setUpClass" finished-at="2025-09-03T10:08:11 IST" duration-ms="1089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a070cf0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:08:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:08:34 IST" duration-ms="23150" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Futures Contracts Data in NSE"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.xpath: //table[@id='MACEquityTable']//tbody//following::tr//td[text()='Stock Futures']//parent::tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 25692, moz:profile: C:\Users\PRAVEP~1.000\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7f8e31fa-03aa-4437-8f7b-1edeb8a9d82d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //table[@id='MACEquityTable']//tbody//following::tr//td[text()='Stock Futures']//parent::tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 25692, moz:profile: C:\Users\PRAVEP~1.000\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7f8e31fa-03aa-4437-8f7b-1edeb8a9d82d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.FutureContracts.dataOfMostActiveFutureContract(FutureContracts.java:53)
+at stepDefinitions.ActiveFutureContractStepDefinition.click_on_most_active_futures_contract_data(ActiveFutureContractStepDefinition.java:24)
+at ✽.Click On Most Active Futures Contract Data(file:///C:/Users/prave.PRAVEENREDDY.000/eclipse-workspace/TradingStocks/src/test/java/Features/ActiveFutureContracts.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:08:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:08:48 IST" duration-ms="13791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Futures Contracts Data in NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:08:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:08:58 IST" duration-ms="10503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting data from Nse of Rise In OI Rise In Price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Bullish Stocks Rise In OI Rise In Price Data in NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:08:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:09:09 IST" duration-ms="10944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Short Covering Stocks Data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Short Covering Data Slide In Oi Rise Price From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:09:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:09:42 IST" duration-ms="33112" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Most Active Stocks Calls Data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Stocks calls Data From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.xpath: //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Options']//parent::tr | //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Futures']//parent::tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 10172, moz:profile: C:\Users\PRAVEP~1.000\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: bbd3396e-d4da-470f-b667-6487fce8b10e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Options']//parent::tr | //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Futures']//parent::tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 10172, moz:profile: C:\Users\PRAVEP~1.000\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: bbd3396e-d4da-470f-b667-6487fce8b10e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.StocksCalls.extarctStocksCallsData(StocksCalls.java:46)
+at stepDefinitions.StocksCallStepDefiniton.click_on_most_active_stocks_calls_data(StocksCallStepDefiniton.java:18)
+at ✽.Click On Most Active Stocks Calls Data(file:///C:/Users/prave.PRAVEENREDDY.000/eclipse-workspace/TradingStocks/src/test/java/Features/StocksCalls.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:09:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:10:00 IST" duration-ms="18049" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Most Active Stocks Calls Data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Stocks calls Data From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.xpath: //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Options']//parent::tr | //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Futures']//parent::tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 9844, moz:profile: C:\Users\PRAVEP~1.000\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 48a3a548-17e3-496b-857d-75f56c6a5408]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Options']//parent::tr | //table[@id='MACEquityTable']//tbody//tr//td[text()='Stock Futures']//parent::tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 9844, moz:profile: C:\Users\PRAVEP~1.000\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 48a3a548-17e3-496b-857d-75f56c6a5408
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.StocksCalls.extarctStocksCallsData(StocksCalls.java:46)
+at stepDefinitions.StocksCallStepDefiniton.click_on_most_active_stocks_calls_data(StocksCallStepDefiniton.java:18)
+at ✽.Click On Most Active Stocks Calls Data(file:///C:/Users/prave.PRAVEENREDDY.000/eclipse-workspace/TradingStocks/src/test/java/Features/StocksCalls.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:10:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:10:11 IST" duration-ms="10096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Most Active Stocks Calls Data from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Stocks calls Data From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:10:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-03T10:10:22 IST" duration-ms="11179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extracting Most Active Stocks Put from Nse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation For Most Active Stocks Puts Data From NSE"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@7354b8c5]" started-at="2025-09-03T10:10:22 IST" name="tearDownClass" finished-at="2025-09-03T10:10:22 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- BDD Suite -->
+</testng-results>

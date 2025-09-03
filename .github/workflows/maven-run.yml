@@ -23,7 +23,8 @@ jobs:
       - name: Run Maven Project Until 11:30 AM IST
         run: |
           # Calculate today's end time (11:30 AM IST) in epoch
-          end=$(date -u -d "11:30 Asia/Kolkata" +%s)
+          end=$(TZ=Asia/Kolkata date -d "today 11:30" +%s)
+          
           while [ $(date +%s) -lt $end ]
           do
             echo "Starting Maven task at $(date)"
